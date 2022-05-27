@@ -13,7 +13,7 @@ func getIPs(networkID uint32) []string {
 	switch networkID {
 	case constants.MainnetID:
 		return []string{
-			"54.71.41.185:9651"
+			"54.71.41.185:9651",
 		}
 	case constants.FujiID:
 		return []string{
@@ -49,7 +49,7 @@ func getNodeIDs(networkID uint32) []string {
 	switch networkID {
 	case constants.MainnetID:
 		return []string{
-			"NodeID-5h3qTR82CKGR1heEnbNVvvhAWUMZZp3bm"
+			"NodeID-5h3qTR82CKGR1heEnbNVvvhAWUMZZp3bm",
 		}
 	case constants.FujiID:
 		return []string{
