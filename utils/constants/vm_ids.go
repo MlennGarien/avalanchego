@@ -6,7 +6,7 @@ package constants
 import "github.com/ava-labs/avalanchego/ids"
 
 var (
-	PlatformVMID = ids.ID{'p', 'l', 'a', 't', 'f', 'o', 'r', 'm', 'v', 'm'}
-	AVMID        = ids.ID{'a', 'v', 'm'}
-	EVMID        = ids.ID{'e', 'v', 'm'}
+	PlatformVMID = ids.ID{'e', 'l', 'e', 'c', 't', 'r', 'o', 'n', 'p', 'l', 'a', 't', 'f', 'o', 'r', 'm', 'v', 'm'}
+	AVMID        = ids.ID{'e', 'l', 'e', 'c', 't', 'r', 'o', 'n', 'a', 'v', 'm'}
+	EVMID        = ids.ID{'e', 'l', 'e', 'c', 't', 'r', 'o', 'n', 'e', 'v', 'm'}
 )
